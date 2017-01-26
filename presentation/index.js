@@ -29,9 +29,6 @@ import preloader from "spectacle/lib/utils/preloader";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
-// Import custom component
-import Interactive from "../assets/interactive";
-
 // Require CSS
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
@@ -50,9 +47,7 @@ const images = {
 	usePhantomjs: require("../assets/usePhantomjs.png"),
 	ec2Reboot: require("../assets/ec2Reboot.jpg"),
 	nodeHtmlPdf: require("../assets/node_html_pdf.png"),
-	gitExample: require("../assets/gitExample.png"),
-	giphyPic: require("../assets/giphy.gif")
-
+	gitExample: require("../assets/gitExample.png")
 };
 
 preloader({images});
@@ -300,8 +295,6 @@ export default class Presentation extends React.Component {
 					</Slide>
 
           <Slide transition={["slide"]} bgColor="black">
-					<Image src={images.giphyPic.replace("/", "")} margin="0px auto 40px" width ="400px" height="400px"/>
-
             <BlockQuote>
               <Quote caps>Thanks</Quote>
             </BlockQuote>
