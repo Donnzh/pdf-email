@@ -1,7 +1,9 @@
 #
 
-a presentation slide about generating pdf in node server, build with react library Spectacle.
+This is the presentation slide about generating pdf in node server, build with react library Spectacle.
 
+for detail codes please go to :
+https://github.com/Donnzh/node-pdfmake-demo
 
 # Spectacle Boilerplate
 
